@@ -84,6 +84,17 @@ input, select, textarea {
 			min-width: 320px;
 		}
 
+		.crm, .crmargin h2{
+			display: block;
+		}
+		.barra{
+			display: none;
+		}
+		.crmargin2{
+			display: block;
+			margin-right: 3rem;
+		}
+
 	}
 
 	html {
@@ -1664,4 +1675,26 @@ input, select, textarea {
 		.consultorio:hover{
 			color: #000000;
 
+		}
+
+		.crm{
+			display: inline-block;
+			margin-left: 1rem;
+		}
+		.crmargin h2 {
+			display: inline-block;
+			margin-bottom: -0.5rem;
+			margin-left: 1rem;
+
+		}
+		.crmargin{
+			margin-bottom: 1rem;
+		}
+
+		strong{
+			display: inline;
+		}
+
+		.crmargin2 {
+			display: inline-block;
 		}
